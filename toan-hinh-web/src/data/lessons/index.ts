@@ -99,6 +99,17 @@ import { lessonG9V2C9L29Content } from './grade-9/g9-v2-c9-l29';
 import { lessonG9V2C9L30Content } from './grade-9/g9-v2-c9-l30';
 import { lessonG9V2C10L31Content } from './grade-9/g9-v2-c10-l31';
 import { lessonG9V2C10L32Content } from './grade-9/g9-v2-c10-l32';
+import { lessonG9V1C4Practice1Content } from './grade-9/g9-v1-c4-practice-1';
+import { lessonG9V1C4ReviewContent } from './grade-9/g9-v1-c4-review';
+import { lessonG9V1C5Practice1Content } from './grade-9/g9-v1-c5-practice-1';
+import { lessonG9V1C5Practice2Content } from './grade-9/g9-v1-c5-practice-2';
+import { lessonG9V1C5ReviewContent } from './grade-9/g9-v1-c5-review';
+import { lessonG9V2C9Practice1Content } from './grade-9/g9-v2-c9-practice-1';
+import { lessonG9V2C9Practice2Content } from './grade-9/g9-v2-c9-practice-2';
+import { lessonG9V2C9ReviewContent } from './grade-9/g9-v2-c9-review';
+import { lessonG9V2C10Practice1Content } from './grade-9/g9-v2-c10-practice-1';
+import { lessonG9V2C10ReviewContent } from './grade-9/g9-v2-c10-review';
+
 
 export const allLessonContents: Record<string, LessonContent> = {
   'g6-v1-c1-l1': g6V1C1L1TapHop,
@@ -201,6 +212,16 @@ export const allLessonContents: Record<string, LessonContent> = {
   'g9-v2-c9-l30': lessonG9V2C9L30Content,
   'g9-v2-c10-l31': lessonG9V2C10L31Content,
   'g9-v2-c10-l32': lessonG9V2C10L32Content,
+  'g9-v1-c4-practice-1': lessonG9V1C4Practice1Content,
+  'g9-v1-c4-review': lessonG9V1C4ReviewContent,
+  'g9-v1-c5-practice-1': lessonG9V1C5Practice1Content,
+  'g9-v1-c5-practice-2': lessonG9V1C5Practice2Content,
+  'g9-v1-c5-review': lessonG9V1C5ReviewContent,
+  'g9-v2-c9-practice-1': lessonG9V2C9Practice1Content,
+  'g9-v2-c9-practice-2': lessonG9V2C9Practice2Content,
+  'g9-v2-c9-review': lessonG9V2C9ReviewContent,
+  'g9-v2-c10-practice-1': lessonG9V2C10Practice1Content,
+  'g9-v2-c10-review': lessonG9V2C10ReviewContent,
 };
 
 export function getLessonContent(lessonId: string): LessonContent | undefined {

@@ -97,6 +97,16 @@ import { templatesG9C9L29 } from './grade-9/g9-c9-l29';
 import { templatesG9C9L30 } from './grade-9/g9-c9-l30';
 import { templatesG9C10L31 } from './grade-9/g9-c10-l31';
 import { templatesG9C10L32 } from './grade-9/g9-c10-l32';
+import { templatesG9C4Practice1 } from './grade-9/g9-c4-practice-1';
+import { templatesG9C4Review } from './grade-9/g9-c4-review';
+import { templatesG9C5Practice1 } from './grade-9/g9-c5-practice-1';
+import { templatesG9C5Practice2 } from './grade-9/g9-c5-practice-2';
+import { templatesG9C5Review } from './grade-9/g9-c5-review';
+import { templatesG9C9Practice1 } from './grade-9/g9-c9-practice-1';
+import { templatesG9C9Practice2 } from './grade-9/g9-c9-practice-2';
+import { templatesG9C9Review } from './grade-9/g9-c9-review';
+import { templatesG9C10Practice1 } from './grade-9/g9-c10-practice-1';
+import { templatesG9C10Review } from './grade-9/g9-c10-review';
 
 
 export const allExerciseTemplates: ExerciseTemplate[] = [
@@ -198,6 +208,16 @@ export const allExerciseTemplates: ExerciseTemplate[] = [
   ...templatesG9C9L30,
   ...templatesG9C10L31,
   ...templatesG9C10L32,
+  ...templatesG9C4Practice1,
+  ...templatesG9C4Review,
+  ...templatesG9C5Practice1,
+  ...templatesG9C5Practice2,
+  ...templatesG9C5Review,
+  ...templatesG9C9Practice1,
+  ...templatesG9C9Practice2,
+  ...templatesG9C9Review,
+  ...templatesG9C10Practice1,
+  ...templatesG9C10Review,
 ];
 
 export function getTemplatesForLesson(lessonId: string): ExerciseTemplate[] {
