@@ -1,0 +1,597 @@
+--- BẮT ĐẦU KIỂM THỬ GENERATORS ---
+Kiểm thử template: g6-v1-c1-l1-tpl-thuoc-khong-thuoc (Nhận biết phần tử thuộc/không thuộc tập hợp)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v1-c1-l1-tpl-liet-ke-so-tu-nhien-nho-hon-n (Liệt kê các số tự nhiên nhỏ hơn n)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v1-c1-l1-tpl-dem-so-phan-tu (Đếm số phần tử của tập hợp)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v1-c1-l1-tpl-tap-hop-bang-nhau (Nhận biết hai tập hợp bằng nhau)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v1-c1-l2-tpl-gia-tri-chu-so (Xác định giá trị của chữ số)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v1-c1-l2-tpl-so-la-ma (Đổi số thập phân sang số La Mã)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v1-c1-l2-tpl-la-ma-sang-thap-phan (Đọc số La Mã sang số thập phân)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v1-c1-l2-tpl-cau-tao-so (Cấu tạo thập phân số tự nhiên)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v1-c1-l3-tpl-lien-truoc-sau (Số liền trước và số liền sau)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v1-c1-l3-tpl-tap-hop-so-sanh (Viết tập hợp số tự nhiên theo điều kiện so sánh)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-c1-l4-add-natural-basic-001 (Phép cộng hai số tự nhiên)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-c1-l4-sub-natural-basic-001 (Phép trừ hai số tự nhiên)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-c1-l4-find-x-understanding-001 (Tìm x trong phép cộng/trừ)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v1-c1-l5-tpl-nhan-tinh-nhanh (Tính nhanh phép nhân)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v1-c1-l5-tpl-chia-co-du (Thương và số dư của phép chia)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v1-c1-l5-tpl-tim-x-nhan-chia (Tìm x trong phép nhân/chia)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v1-c1-l5-tpl-toan-thuc-te (Giải toán thực tế nhân chia)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v1-c1-l6-tpl-tinh-luy-thua (Tính giá trị lũy thừa)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v1-c1-l6-tpl-nhan-luy-thua (Nhân hai lũy thừa cùng cơ số)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v1-c1-l6-tpl-chia-luy-thua (Chia hai lũy thừa cùng cơ số)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v1-c1-l7-tpl-bieu-thuc-khong-ngoac (Tính biểu thức không ngoặc)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v1-c1-l7-tpl-bieu-thuc-co-ngoac (Tính biểu thức có ngoặc)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v1-c1-l7-tpl-tim-x-thu-tu-phep-tinh (Tìm x với biểu thức nhiều phép tính)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v1-c4-l18-tpl-nhan-dang-hinh (Nhận dạng hình đều qua thuộc tính)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v1-c4-l18-tpl-tinh-chu-vi-hinh-deu (Tính chu vi của hình đều)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v1-c4-l19-tpl-thuoc-tinh-hinh (Phân biệt tứ giác qua thuộc tính)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v1-c4-l19-tpl-tinh-chu-vi-tu-giac (Tính chu vi hình tứ giác)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v1-c4-l20-tpl-dien-tich-basic (Tính diện tích hình bình hành và hình thoi)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v1-c4-l20-tpl-dien-tich-hinh-thang (Tính diện tích hình thang)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v1-c4-l20-tpl-toan-thuc-te-dt (Bài toán thực tế diện tích)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v1-c5-l21-tpl-nhan-biet-truc-dx (Nhận biết hình có trục đối xứng)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v1-c5-l21-tpl-dem-truc-doi-xung (Đếm số trục đối xứng)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v1-c5-l22-tpl-nhan-biet-tam-dx (Nhận biết hình có tâm đối xứng)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v1-c5-l22-tpl-vi-tri-tam-dx (Xác định vị trí tâm đối xứng)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v2-c8-l32-tpl-thuoc-khong-thuoc (Ký hiệu điểm thuộc và không thuộc đường thẳng)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v2-c8-l32-tpl-diem-thang-hang (Nhận biết điểm thẳng hàng và nằm giữa)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v2-c8-l32-tpl-dem-duong-thang (Đếm số đường thẳng qua các điểm)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v2-c8-l32-tpl-giao-diem-song-song (Xác định giao điểm và quan hệ song song)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v2-c8-l33-tpl-diem-nam-giua (Xác định điểm nằm giữa hai điểm)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v2-c8-l33-tpl-doc-ten-tia (Đọc tên tia và xác định gốc tia)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v2-c8-l33-tpl-tia-trung-doi (Phân biệt tia trùng và tia đối)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v2-c8-l34-tpl-tong-doan-thang (Tính tổng độ dài đoạn thẳng)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v2-c8-l34-tpl-hieu-doan-thang (Tính hiệu độ dài đoạn thẳng)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v2-c8-l34-tpl-so-sanh-doan-thang (So sánh độ dài hai đoạn thẳng)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v2-c8-l35-tpl-tinh-nua-doan (Tính khoảng cách trung điểm)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v2-c8-l35-tpl-tinh-ca-doan (Tính độ dài cả đoạn thẳng)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v2-c8-l35-tpl-nhan-biet-trung-diem (Khẳng định đúng về trung điểm)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v2-c8-l36-tpl-doc-ten-goc (Xác định đỉnh và cạnh của góc)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v2-c8-l36-tpl-nhan-biet-goc-bet (Nhận biết góc bẹt)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v2-c8-l36-tpl-dem-so-goc (Đếm số góc tạo bởi nhiều tia)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v2-c8-l37-tpl-phan-loai-goc (Phân loại góc theo số đo)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v2-c8-l37-tpl-tong-so-do-goc (Tính tổng số đo góc)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-v2-c8-l37-tpl-hieu-so-do-goc (Tính hiệu số đo góc)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-c4-practice-1-tpl-01 (Tính chu vi tam giác đều hoặc hình vuông hoặc lục giác đều)
+Kiểm thử template: g6-c4-practice-1-tpl-02 (Tính diện tích hình chữ nhật)
+Kiểm thử template: g6-c4-practice-1-tpl-03 (Tính diện tích hình thoi biết độ dài hai đường chéo)
+Kiểm thử template: g6-c4-practice-1-tpl-04 (Tính diện tích hình bình hành)
+Kiểm thử template: g6-c4-practice-1-tpl-05 (Bài toán diện tích ghép hình thực tế)
+Kiểm thử template: g6-c4-review-tpl-01 (Nhận biết tính chất của các hình phẳng)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-c4-review-tpl-02 (Tính số viên gạch cần để lát nền nhà)
+Kiểm thử template: g6-c4-review-tpl-03 (Tính diện tích lối đi quanh vườn)
+Kiểm thử template: g6-c4-review-tpl-04 (Tìm chiều cao hình bình hành từ diện tích)
+Kiểm thử template: g6-c4-review-tpl-05 (Ghép lục giác đều từ các tam giác đều)
+Kiểm thử template: g6-c5-practice-1-tpl-01 (Tính chất đối xứng của các chữ cái)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-c5-practice-1-tpl-02 (Số trục đối xứng của hình phẳng cơ bản)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-c5-practice-1-tpl-03 (Nhận biết tâm đối xứng của các hình học)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-c5-practice-1-tpl-04 (Biển báo giao thông đối xứng)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-c5-practice-1-tpl-05 (Tính đối xứng của chữ số)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-c5-review-tpl-01 (Nhận biết hình vừa có trục đối xứng vừa có tâm đối xứng)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-c5-review-tpl-02 (Xác định vị trí tâm đối xứng)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-c5-review-tpl-03 (Số trục đối xứng của hình lục giác đều)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-c5-review-tpl-04 (Phát biểu đúng sai về đối xứng hình bình hành)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-c5-review-tpl-05 (Đếm số hình có trục đối xứng trong một tập hợp)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-c8-practice-1-tpl-01 (Điểm thuộc hay không thuộc đường thẳng)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-c8-practice-1-tpl-02 (Nhận biết tia đối nhau)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-c8-practice-1-tpl-03 (Tính độ dài đoạn thẳng khi điểm nằm giữa)
+Kiểm thử template: g6-c8-practice-1-tpl-04 (Tính độ dài từ trung điểm)
+Kiểm thử template: g6-c8-practice-1-tpl-05 (Bài toán hai trung điểm nối tiếp)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-c8-practice-2-tpl-01 (Xác định đỉnh và cạnh của góc)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-c8-practice-2-tpl-02 (Phân loại góc từ số đo)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-c8-practice-2-tpl-03 (Sắp xếp các góc theo thứ tự)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-c8-practice-2-tpl-04 (Tính góc tạo bởi kim giờ và kim phút của đồng hồ)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-c8-practice-2-tpl-05 (So sánh góc từ giả thiết)
+Kiểm thử template: g6-c8-review-tpl-01 (Tính số đường thẳng đi qua các điểm phân biệt)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-c8-review-tpl-02 (Đếm số tia trên đường thẳng)
+Kiểm thử template: g6-c8-review-tpl-03 (Xác định điểm nằm giữa và trung điểm)
+Kiểm thử template: g6-c8-review-tpl-04 (Tính số góc chung gốc)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g6-c8-review-tpl-05 (Cộng góc kề nhau)
+Kiểm thử template: g7-v1-c3-l8-tpl-01 (Nhận dạng cặp góc đối đỉnh)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c3-l8-tpl-02 (Tính góc kề bù)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c3-l8-tpl-03 (Tính góc đối đỉnh)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c3-l8-tpl-04 (Tính số đo góc tạo bởi tia phân giác)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c3-l8-tpl-05 (Khẳng định đúng về góc kề bù, đối đỉnh)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c3-l9-tpl-01 (Xác định cặp góc so le trong hoặc đồng vị)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c3-l9-tpl-02 (Kết luận song song qua góc so le trong)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c3-l9-tpl-03 (Kết luận song song qua góc đồng vị)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c3-l9-tpl-04 (Tính góc cơ bản từ cặp góc bằng nhau)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c3-l9-tpl-05 (Phát biểu sai về dấu hiệu song song)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c3-l10-tpl-01 (Số đường thẳng song song qua một điểm)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c3-l10-tpl-02 (Tính góc đồng vị khi song song)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c3-l10-tpl-03 (Tính góc trong cùng phía khi song song)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c3-l10-tpl-04 (Tính góc qua trung gian kề bù và song song)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c3-l10-tpl-05 (Phát biểu đúng về Tiên đề Euclid)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c3-l11-tpl-01 (Xác định giả thiết và kết luận của định lí)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c3-l11-tpl-02 (Xác định kết luận định lí từ giả thiết hình vẽ)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c3-l11-tpl-03 (Sắp xếp các bước chứng minh)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c3-l11-tpl-04 (Chọn lý do đúng cho một khẳng định)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c3-l11-tpl-05 (Nhận biết định lí đảo của một mệnh đề)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c4-l12-tpl-01 (Tính góc thứ ba trong tam giác)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c4-l12-tpl-02 (Kiểm tra bộ ba góc có là tam giác)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c4-l12-tpl-03 (Tính góc trong kề bù với góc ngoài)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c4-l12-tpl-04 (Góc ngoài bằng tổng hai góc trong không kề)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c4-l12-tpl-05 (Tìm góc trong tam giác vuông/có đường cao)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c4-l13-tpl-01 (Xác định bằng nhau theo c-c-c)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c4-l13-tpl-02 (Thứ tự viết tam giác bằng nhau đúng)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c4-l13-tpl-03 (Tính cạnh tương ứng từ hai tam giác bằng nhau)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c4-l13-tpl-04 (Tính góc tương ứng từ hai tam giác bằng nhau)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c4-l13-tpl-05 (Tìm điều kiện cần thêm cho trường hợp c-c-c)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c4-l14-tpl-01 (Xác định bằng nhau theo c-g-c)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c4-l14-tpl-02 (Xác định bằng nhau theo g-c-g)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c4-l14-tpl-03 (Nhận biết dữ kiện không đủ bằng nhau)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c4-l14-tpl-04 (Tính cạnh hoặc góc tương ứng qua c-g-c/g-c-g)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c4-l14-tpl-05 (Sắp xếp chứng minh tam giác bằng nhau c-g-c)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c4-l15-tpl-01 (Chọn trường hợp bằng nhau của tam giác vuông)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c4-l15-tpl-02 (Xác định cạnh huyền trong tam giác vuông)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c4-l15-tpl-03 (Tính cạnh tương ứng của tam giác vuông)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c4-l15-tpl-04 (Chọn bộ dữ kiện không đủ bằng nhau cho tam giác vuông)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c4-l15-tpl-05 (Chứng minh hai đoạn thẳng bằng nhau bằng tam giác vuông)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c4-l16-tpl-01 (Tính góc đáy hoặc góc đỉnh tam giác cân)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c4-l16-tpl-02 (Nhận biết tam giác cân qua hai góc bằng nhau)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c4-l16-tpl-03 (Dùng tính chất đường trung trực để tính khoảng cách)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c4-l16-tpl-04 (Định nghĩa đường trung trực của đoạn thẳng)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v1-c4-l16-tpl-05 (Kết hợp tam giác cân và tính chất tổng góc)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v2-c9-l31-tpl-01 (So sánh độ dài các cạnh khi biết góc)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v2-c9-l31-tpl-02 (So sánh các góc khi biết độ dài cạnh)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v2-c9-l31-tpl-03 (Tìm cạnh lớn nhất hoặc nhỏ nhất)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v2-c9-l31-tpl-04 (Xác định góc lớn nhất trong tam giác vuông/tù)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v2-c9-l31-tpl-05 (Khẳng định đúng về mối quan hệ giữa góc và cạnh đối diện)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v2-c9-l32-tpl-01 (So sánh đường vuông góc và đường xiên)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v2-c9-l32-tpl-02 (Khẳng định lý thuyết về đường vuông góc và đường xiên)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v2-c9-l32-tpl-03 (So sánh đường xiên khi biết hình chiếu)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v2-c9-l32-tpl-04 (So sánh hình chiếu khi biết đường xiên)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v2-c9-l32-tpl-05 (Bài toán thực tế ứng dụng đường ngắn nhất)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v2-c9-l33-tpl-01 (Kiểm tra bộ ba độ dài có thể tạo thành tam giác)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v2-c9-l33-tpl-02 (Tìm khoảng giới hạn cạnh thứ ba)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v2-c9-l33-tpl-03 (Xác định bộ ba độ dài không thể tạo thành tam giác)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v2-c9-l33-tpl-04 (Tìm độ dài cạnh thứ ba trong tam giác cân)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v2-c9-l33-tpl-05 (Khẳng định đúng về bất đẳng thức tam giác)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v2-c9-l34-tpl-01 (Tính khoảng cách từ trọng tâm đến đỉnh khi biết trung tuyến)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v2-c9-l34-tpl-02 (Tính chiều dài đường trung tuyến khi biết một phần)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v2-c9-l34-tpl-03 (Nhận diện tỉ lệ đúng về các đoạn thẳng của trọng tâm)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v2-c9-l34-tpl-04 (Khoảng cách từ giao điểm ba phân giác đến ba cạnh)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v2-c9-l34-tpl-05 (Khẳng định đúng về đồng quy trong tam giác)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v2-c9-l35-tpl-01 (Xác định trực tâm tam giác vuông)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v2-c9-l35-tpl-02 (Nhận dạng khái niệm trực tâm tam giác)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v2-c9-l35-tpl-03 (Tính chất khoảng cách giao điểm ba đường trung trực)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v2-c9-l35-tpl-04 (Bài toán thực tế về khoảng cách đều 3 đỉnh)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v2-c9-l35-tpl-05 (Khẳng định đúng về vị trí trực tâm trong tam giác tù)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v2-c10-l36-tpl-01 (Tính thể tích hình hộp chữ nhật)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v2-c10-l36-tpl-02 (Tính diện tích xung quanh hình hộp chữ nhật)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v2-c10-l36-tpl-03 (Tính thể tích hình lập phương)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v2-c10-l36-tpl-04 (Tìm cạnh lập phương khi biết diện tích toàn phần)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v2-c10-l36-tpl-05 (Bài toán thực tế quét vôi phòng học hình hộp)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v2-c10-l37-tpl-01 (Tính diện tích xung quanh lăng trụ đứng tam giác)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v2-c10-l37-tpl-02 (Nhận biết các mặt và cạnh của hình lăng trụ đứng)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v2-c10-l37-tpl-03 (Tính thể tích lăng trụ đứng khi biết diện tích đáy)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v2-c10-l37-tpl-04 (Tính thể tích lăng trụ đứng tam giác vuông)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g7-v2-c10-l37-tpl-05 (Bài toán thực tế lăng trụ đứng hình chiếc lều)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v1-c3-l10-tpl-01 (Tính số đo góc thứ tư của tứ giác)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v1-c3-l10-tpl-02 (Tính góc trong tứ giác có tỉ lệ)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v1-c3-l10-tpl-03 (Nhận dạng các cặp đỉnh kề và đối trong tứ giác)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v1-c3-l10-tpl-04 (Khẳng định tổng bốn góc của một tứ giác)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v1-c3-l11-tpl-01 (Tính các góc của hình thang cân)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v1-c3-l11-tpl-02 (Tính chất hai đường chéo hình thang cân)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v1-c3-l11-tpl-03 (Dấu hiệu nhận biết hình thang cân)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v1-c3-l11-tpl-04 (Tính chất góc kề một cạnh bên của hình thang)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v1-c3-l12-tpl-01 (Tính các góc của hình bình hành)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v1-c3-l12-tpl-02 (Tính chu vi hình bình hành khi biết độ dài hai cạnh)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v1-c3-l12-tpl-03 (Dấu hiệu nhận biết hình bình hành)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v1-c3-l12-tpl-04 (Tính chất trung điểm hai đường chéo hình bình hành)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v1-c3-l13-tpl-01 (Tính trung tuyến ứng với cạnh huyền trong tam giác vuông)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v1-c3-l13-tpl-02 (Tính trung tuyến tam giác vuông khi biết hai cạnh góc vuông)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v1-c3-l13-tpl-03 (Dấu hiệu nhận biết hình chữ nhật)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v1-c3-l13-tpl-04 (Độ dài các đoạn thẳng đường chéo trong hình chữ nhật)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v1-c3-l13-tpl-05 (Khẳng định đúng về hình chữ nhật)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v1-c3-l14-tpl-01 (Tính độ dài cạnh hình thoi khi biết hai đường chéo)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v1-c3-l14-tpl-02 (Tính góc của hình thoi)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v1-c3-l14-tpl-03 (Dấu hiệu nhận biết hình thoi)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v1-c3-l14-tpl-04 (Dấu hiệu nhận biết hình vuông)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v1-c3-l14-tpl-05 (Tính chu vi của hình vuông khi biết đường chéo)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v1-c4-l15-tpl-01 (Tính độ dài đoạn thẳng trên cạnh tam giác bằng định lí Thalès)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v1-c4-l15-tpl-02 (Tính tỉ số độ dài hai đoạn thẳng)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v1-c4-l15-tpl-03 (Tính đoạn thẳng dài của một cạnh bên bằng định lí Thalès)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v1-c4-l15-tpl-04 (Xác định đường thẳng song song bằng Thalès đảo)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v1-c4-l15-tpl-05 (Tính đoạn thẳng dựa vào Thalès và tổng độ dài hai đoạn)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v1-c4-l16-tpl-01 (Tính độ dài cạnh đáy từ đường trung bình)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v1-c4-l16-tpl-02 (Tính độ dài đường trung bình từ cạnh đáy)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v1-c4-l16-tpl-03 (Khẳng định đúng về tính chất đường trung bình)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v1-c4-l16-tpl-04 (Định lí đảo về đường trung bình tam giác)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v1-c4-l16-tpl-05 (Tính chu vi tam giác trung bình)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v1-c4-l17-tpl-01 (Tính độ dài đoạn thẳng trên cạnh đáy từ đường phân giác)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v1-c4-l17-tpl-02 (Tính cạnh bên của tam giác từ đường phân giác)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v1-c4-l17-tpl-03 (Công thức tỉ lệ đúng của đường phân giác)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v1-c4-l17-tpl-04 (Tính hai đoạn thẳng đáy khi biết tổng và hai cạnh bên)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v1-c4-l17-tpl-05 (Tính tỉ số của hai đoạn thẳng trên đáy)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v2-c9-l33-tpl-01 (Tính cạnh tương ứng của tam giác đồng dạng)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v2-c9-l33-tpl-02 (Xác định tỉ số đồng dạng của tam giác ngược lại)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v2-c9-l33-tpl-03 (Tính số đo góc trong tam giác đồng dạng)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v2-c9-l33-tpl-04 (Tính tỉ số chu vi hai tam giác đồng dạng)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v2-c9-l33-tpl-05 (Tính tỉ số diện tích hai tam giác đồng dạng)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v2-c9-l34-tpl-01 (Nhận biết tam giác đồng dạng theo trường hợp Cạnh-Cạnh-Cạnh)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v2-c9-l34-tpl-02 (Xác định điều kiện để tam giác đồng dạng theo trường hợp Cạnh-Góc-Cạnh)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v2-c9-l34-tpl-03 (Nhận biết tam giác đồng dạng theo trường hợp Góc-Góc)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v2-c9-l34-tpl-04 (Tính tỉ số đoạn thẳng từ đẳng thức tích)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v2-c9-l34-tpl-05 (Ứng dụng thực tế: Đo chiều cao của cây bóng nắng)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v2-c9-l35-tpl-01 (Tính cạnh huyền của tam giác vuông)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v2-c9-l35-tpl-02 (Tính cạnh góc vuông của tam giác vuông)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v2-c9-l35-tpl-03 (Kiểm tra tam giác vuông bằng Pythagore đảo)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v2-c9-l35-tpl-04 (Toán thực tế Pythagore: Khoảng cách từ chân thang đến tường)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v2-c9-l35-tpl-05 (Tính đường chéo của hình chữ nhật bằng Pythagore)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v2-c9-l36-tpl-01 (Nhận biết điều kiện đồng dạng bằng góc nhọn)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v2-c9-l36-tpl-02 (Đồng dạng theo trường hợp hai cạnh góc vuông)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v2-c9-l36-tpl-03 (Tính cạnh huyền bằng tam giác vuông đồng dạng)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v2-c9-l36-tpl-04 (Tính đường cao trong tam giác vuông bằng tam giác đồng dạng)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v2-c9-l36-tpl-05 (Tính tỉ số diện tích đường cao)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v2-c9-l37-tpl-01 (Nhận biết các hình luôn đồng dạng)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v2-c9-l37-tpl-02 (Nhận biết tâm phối cảnh của hình đồng dạng phối cảnh)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v2-c9-l37-tpl-03 (Tính khoảng cách đến tâm phối cảnh)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v2-c9-l37-tpl-04 (Tính tỉ số đồng dạng của hình chữ nhật đồng dạng)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v2-c9-l37-tpl-05 (Tính diện tích hình đồng dạng dựa trên tỉ số đồng dạng k)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v2-c10-l38-tpl-01 (Xác định các yếu tố của hình chóp tam giác đều)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v2-c10-l38-tpl-02 (Nhận biết hình dạng mặt bên của hình chóp tam giác đều)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v2-c10-l38-tpl-03 (Tính diện tích xung quanh của hình chóp tam giác đều)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v2-c10-l38-tpl-04 (Tính thể tích hình chóp tam giác đều)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v2-c10-l38-tpl-05 (Toán thực tế: Hộp quà hình chóp tam giác đều)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v2-c10-l39-tpl-01 (Xác định số mặt bên của hình chóp tứ giác đều)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v2-c10-l39-tpl-02 (Đặc điểm mặt đáy của hình chóp tứ giác đều)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v2-c10-l39-tpl-03 (Tính diện tích xung quanh của hình chóp tứ giác đều)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v2-c10-l39-tpl-04 (Tính thể tích hình chóp tứ giác đều)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g8-v2-c10-l39-tpl-05 (Toán thực tế: Thể tích kim tự tháp)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v1-c4-l11-tpl-01 (Tính tỉ số lượng giác sin từ tam giác vuông)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v1-c4-l11-tpl-02 (Tính tỉ số lượng giác tan từ tam giác vuông)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v1-c4-l11-tpl-03 (Tính cos khi biết sin góc nhọn)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v1-c4-l11-tpl-04 (Tính tan khi biết sin và cos)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v1-c4-l11-tpl-05 (Tỉ số lượng giác góc nhọn của hai góc phụ nhau)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v1-c4-l12-tpl-01 (Tính cạnh góc vuông khi biết cạnh huyền và góc đối)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v1-c4-l12-tpl-02 (Tính cạnh góc vuông bằng cạnh góc vuông kia và tan góc nhọn)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v1-c4-l12-tpl-03 (Ứng dụng thực tế: Tính chiều cao của tháp)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v1-c4-l12-tpl-04 (Ứng dụng thực tế: Tính độ dài bóng của cột cờ)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v1-c4-l12-tpl-05 (Giải tam giác vuông tìm góc nhọn)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v1-c5-l13-tpl-01 (Xác định vị trí tương đối của điểm đối với đường tròn)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v1-c5-l13-tpl-02 (Khẳng định về tính chất đối xứng của đường tròn)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v1-c5-l13-tpl-03 (Bán kính đường tròn ngoại tiếp tam giác vuông)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v1-c5-l13-tpl-04 (Đường tròn đi qua 4 đỉnh của hình chữ nhật)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v1-c5-l13-tpl-05 (Bán kính đường tròn ngoại tiếp tam giác đều)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v1-c5-l14-tpl-01 (Tính độ dài dây cung khi biết bán kính và khoảng cách đến tâm)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v1-c5-l14-tpl-02 (Tính bán kính đường tròn khi biết dây cung và khoảng cách)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v1-c5-l14-tpl-03 (Tính khoảng cách đến tâm khi biết bán kính và dây cung)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v1-c5-l14-tpl-04 (So sánh độ dài hai dây cung bằng khoảng cách đến tâm)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v1-c5-l14-tpl-05 (Tính chất vuông góc của đường kính và dây cung)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v1-c5-l15-tpl-01 (Tính độ dài cung tròn)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v1-c5-l15-tpl-02 (Tính số đo góc của cung tròn từ độ dài cung)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v1-c5-l15-tpl-03 (Tính diện tích hình quạt tròn)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v1-c5-l15-tpl-04 (Tính diện tích hình vành khuyên)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v1-c5-l15-tpl-05 (Tính nhanh diện tích quạt từ độ dài cung và bán kính)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v1-c5-l16-tpl-01 (Xác định số điểm chung của đường thẳng và đường tròn)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v1-c5-l16-tpl-02 (Xác định khoảng cách d để đường thẳng là tiếp tuyến)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v1-c5-l16-tpl-03 (Tính độ dài tiếp tuyến kẻ từ điểm ngoài đường tròn)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v1-c5-l16-tpl-04 (Xác định vị trí tương đối từ bảng số liệu)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v1-c5-l16-tpl-05 (Tính số đo góc tạo bởi hai tiếp tuyến)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v1-c5-l17-tpl-01 (Xác định vị trí tương đối của hai đường tròn)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v1-c5-l17-tpl-02 (Hệ thức liên hệ khi hai đường tròn cắt nhau)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v1-c5-l17-tpl-03 (Tính khoảng cách tâm khi biết hai đường tròn tiếp xúc ngoài)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v1-c5-l17-tpl-04 (Khẳng định về đường nối tâm của hai đường tròn cắt nhau)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v1-c5-l17-tpl-05 (Tính độ dài dây chung của hai đường tròn cắt nhau)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v2-c9-l27-tpl-01 (Tính số đo góc nội tiếp khi biết số đo cung bị chắn)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v2-c9-l27-tpl-02 (Tính số đo góc ở tâm khi biết góc nội tiếp cùng chắn một cung)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v2-c9-l27-tpl-03 (Tính góc nội tiếp từ hai góc nội tiếp cùng chắn một cung)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v2-c9-l27-tpl-04 (Tính cạnh trong tam giác vuông nội tiếp chắn nửa đường tròn)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v2-c9-l27-tpl-05 (Tính bán kính đường tròn ngoại tiếp tam giác vuông)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v2-c9-l28-tpl-01 (Xác định tâm đường tròn ngoại tiếp tam giác)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v2-c9-l28-tpl-02 (Xác định tâm đường tròn nội tiếp tam giác)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v2-c9-l28-tpl-03 (Tính bán kính ngoại tiếp và nội tiếp tam giác đều)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v2-c9-l28-tpl-04 (Tính bán kính nội tiếp tam giác thường bằng công thức diện tích)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v2-c9-l28-tpl-05 (Tính tỉ số bán kính ngoại tiếp và nội tiếp tam giác đều)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v2-c9-l29-tpl-01 (Tính góc đối diện của tứ giác nội tiếp)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v2-c9-l29-tpl-02 (Xác định khẳng định đúng về tứ giác nội tiếp)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v2-c9-l29-tpl-03 (Nhận biết các hình luôn nội tiếp đường tròn)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v2-c9-l29-tpl-04 (Tính góc ngoài của tứ giác nội tiếp)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v2-c9-l29-tpl-05 (Dấu hiệu nhận biết dựa trên góc nhìn cạnh)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v2-c9-l30-tpl-01 (Tính số đo góc ở đỉnh của đa giác đều)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v2-c9-l30-tpl-02 (Tính số đo góc ở tâm của đa giác đều)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v2-c9-l30-tpl-03 (Độ dài bán kính ngoại tiếp lục giác đều)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v2-c9-l30-tpl-04 (Tính bán kính đường tròn nội tiếp hình vuông)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v2-c9-l30-tpl-05 (Nhận biết điều kiện để đa giác là đa giác đều)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v2-c10-l31-tpl-01 (Tính diện tích xung quanh của hình trụ)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v2-c10-l31-tpl-02 (Tính thể tích của hình trụ)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v2-c10-l31-tpl-03 (Tính diện tích xung quanh của hình nón)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v2-c10-l31-tpl-04 (Tính thể tích của hình nón)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v2-c10-l31-tpl-05 (Toán thực tế: Dung tích lon nước ngọt hình trụ)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v2-c10-l32-tpl-01 (Tính diện tích mặt cầu khi biết bán kính)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v2-c10-l32-tpl-02 (Tính diện tích mặt cầu khi biết đường kính)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v2-c10-l32-tpl-03 (Tính thể tích hình cầu khi biết bán kính)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v2-c10-l32-tpl-04 (Toán thực tế: Diện tích da bọc quả bóng đá)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+Kiểm thử template: g9-v2-c10-l32-tpl-05 (Toán thực tế: Thể tích quả địa cầu)
+✅ Đạt: 500/500 hạt giống (seeds) thành công không lỗi.
+--- HOÀN THÀNH KIỂM THỬ ---
