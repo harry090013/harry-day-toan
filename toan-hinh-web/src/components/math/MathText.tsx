@@ -8,6 +8,17 @@ interface MathTextProps {
   text: string;
 }
 
+function renderTextWithBold(text: string) {
+  if (!text) return null;
+  const parts = text.split(/(\*\*.*?\*\*)/g);
+  return parts.map((part, index) => {
+    if (part.startsWith('**') && part.endsWith('**')) {
+      return <strong key={index} className="font-bold text-slate-100 print:text-black">{part.slice(2, -2)}</strong>;
+    }
+    return part;
+  });
+}
+
 export default function MathText({ text }: MathTextProps) {
   if (!text) return null;
 
@@ -36,7 +47,7 @@ export default function MathText({ text }: MathTextProps) {
                 return <InlineMath key={subIndex} math={math} {...({ options: { strict: 'ignore' } } as any)} />;
               }
               // Normal text
-              return <span key={subIndex}>{inlinePart}</span>;
+              return <span key={subIndex}>{renderTextWithBold(inlinePart)}</span>;
             })}
           </span>
         );

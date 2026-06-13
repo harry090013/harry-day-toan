@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import { allLessonContents } from '@/data/lessons/index';
 import { Download, BookOpen, Layers, CheckCircle2, AlertCircle, Sparkles } from 'lucide-react';
 import GeometryDiagramRenderer from '@/components/lesson/GeometryDiagramRenderer';
+import MathText from '@/components/math/MathText';
 
 export default function SoTayCongThuc() {
   const [activeGrade, setActiveGrade] = useState<number | 'all'>('all');
@@ -17,26 +18,7 @@ export default function SoTayCongThuc() {
     (l) => activeGrade === 'all' || l.grade === activeGrade
   );
 
-  const cleanLatex = (text: string) => {
-    if (!text) return '';
-    return text
-      .replace(/\\quad/g, '   ')
-      .replace(/\\text/g, '')
-      .replace(/\{/g, '')
-      .replace(/\}/g, '')
-      .replace(/\\cdot/g, ' x ')
-      .replace(/\\times/g, ' x ')
-      .replace(/\\degree/g, '°')
-      .replace(/\^\^\\circ/g, '°')
-      .replace(/\^\\circ/g, '°')
-      .replace(/\\frac/g, '')
-      .replace(/\\pi/g, 'π')
-      .replace(/\\sqrt/g, '√')
-      .replace(/\\alpha/g, 'α')
-      .replace(/\\beta/g, 'β')
-      .replace(/\\gamma/g, 'γ')
-      .replace(/\\triangle/g, 'Δ');
-  };
+
 
   return (
     <div className="flex flex-col gap-8 print:bg-white print:text-black print:p-0">
@@ -137,9 +119,9 @@ export default function SoTayCongThuc() {
                     <BookOpen className="w-4 h-4 text-indigo-500 print:text-indigo-700" />
                     {theory.title}
                   </h3>
-                  <p className="text-slate-300 text-xs sm:text-sm whitespace-pre-line leading-relaxed print:text-slate-800">
-                    {theory.content}
-                  </p>
+                  <div className="text-slate-300 text-xs sm:text-sm whitespace-pre-line leading-relaxed print:text-slate-800">
+                    <MathText text={theory.content} />
+                  </div>
 
                   {/* Diagram Rendering */}
                   {theory.diagram && (
@@ -159,14 +141,13 @@ export default function SoTayCongThuc() {
                   
                   {/* Formulas rendering */}
                   {theory.formulas && theory.formulas.length > 0 && (
-                    <div className="flex flex-col gap-1.5 mt-2">
+                    <div className="flex flex-col gap-2 mt-2">
                       {theory.formulas.map((formula, fIdx) => (
                         <div
                           key={fIdx}
-                          className="px-3 py-2 rounded-lg bg-red-500/5 border border-red-500/10 text-red-400 font-mono text-xs sm:text-sm select-all cursor-pointer print:bg-red-50/30 print:border-red-200 print:text-red-700"
-                          title="Click để chọn công thức"
+                          className="px-4 py-2.5 rounded-xl bg-slate-900/40 border border-slate-900/60 print:bg-slate-50 print:border-slate-200"
                         >
-                          {cleanLatex(formula)}
+                          <MathText text={`$$${formula}$$`} />
                         </div>
                       ))}
                     </div>
