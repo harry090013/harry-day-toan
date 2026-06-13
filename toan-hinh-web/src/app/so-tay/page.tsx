@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { allLessonContents } from '@/data/lessons/index';
 import { Download, BookOpen, Layers, CheckCircle2, AlertCircle, Sparkles } from 'lucide-react';
+import GeometryDiagramRenderer from '@/components/lesson/GeometryDiagramRenderer';
 
 export default function SoTayCongThuc() {
   const [activeGrade, setActiveGrade] = useState<number | 'all'>('all');
@@ -125,6 +126,22 @@ export default function SoTayCongThuc() {
                   <p className="text-slate-300 text-xs sm:text-sm whitespace-pre-line leading-relaxed">
                     {theory.content}
                   </p>
+
+                  {/* Diagram Rendering */}
+                  {theory.diagram && (
+                    <div className="my-3 p-3 bg-slate-950/80 rounded-xl border border-slate-900 max-w-sm w-full mx-auto shadow-inner">
+                      <GeometryDiagramRenderer diagram={theory.diagram} />
+                    </div>
+                  )}
+                  {theory.diagrams && theory.diagrams.length > 0 && (
+                    <div className="flex flex-col gap-3 my-3">
+                      {theory.diagrams.map((d) => (
+                        <div key={d.id} className="p-3 bg-slate-950/80 rounded-xl border border-slate-900 max-w-sm w-full mx-auto shadow-inner">
+                          <GeometryDiagramRenderer diagram={d} />
+                        </div>
+                      ))}
+                    </div>
+                  )}
                   
                   {/* Formulas rendering */}
                   {theory.formulas && theory.formulas.length > 0 && (
