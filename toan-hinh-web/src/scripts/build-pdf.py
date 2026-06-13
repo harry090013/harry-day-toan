@@ -1,11 +1,36 @@
 import json
 import os
-from reportlab.lib.pagesizes import letter, A4
+from reportlab.lib.pagesizes import letter
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, PageBreak, KeepTogether
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib import colors
 from reportlab.pdfgen import canvas
 from reportlab.graphics.shapes import Drawing, Rect, String, Line, Circle, Polygon
+from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.ttfonts import TTFont
+
+# Register Arial Unicode Fonts to support Vietnamese accents properly
+try:
+    font_path = "C:/Windows/Fonts/arial.ttf"
+    font_bold_path = "C:/Windows/Fonts/arialbd.ttf"
+    
+    if os.path.exists(font_path):
+        pdfmetrics.registerFont(TTFont('Arial', font_path))
+    else:
+        # Fallback if somehow not in standard Windows location
+        pdfmetrics.registerFont(TTFont('Arial', 'arial.ttf'))
+        
+    if os.path.exists(font_bold_path):
+        pdfmetrics.registerFont(TTFont('Arial-Bold', font_bold_path))
+    else:
+        pdfmetrics.registerFont(TTFont('Arial-Bold', 'arialbd.ttf'))
+        
+    FONT_REGULAR = 'Arial'
+    FONT_BOLD = 'Arial-Bold'
+except Exception as e:
+    print("Warning registering Arial fonts, using defaults:", e)
+    FONT_REGULAR = 'Helvetica'
+    FONT_BOLD = 'Helvetica-Bold'
 
 class NumberedCanvas(canvas.Canvas):
     def __init__(self, *args, **kwargs):
@@ -28,7 +53,7 @@ class NumberedCanvas(canvas.Canvas):
         if self._pageNumber == 1:
             return  # skip title page
         self.saveState()
-        self.setFont("Helvetica", 9)
+        self.setFont(FONT_REGULAR, 9)
         self.setFillColor(colors.HexColor("#64748b"))
         # Header
         self.drawString(54, 800, "Sổ Tay Công Thức Toán Hình Học THCS (Lớp 6 - 9)")
@@ -49,23 +74,23 @@ def draw_basic_shape(shape_type):
     d.add(Rect(0, 0, 120, 90, fillColor=colors.HexColor("#f8fafc"), strokeColor=colors.HexColor("#cbd5e1"), strokeWidth=1, rx=5, ry=5))
     if shape_type == "triangle":
         d.add(Polygon([60, 75, 20, 20, 100, 20], fillColor=colors.HexColor("#dbeafe"), strokeColor=colors.HexColor("#2563eb"), strokeWidth=2))
-        d.add(String(55, 78, "A", fontSize=9, fontName="Helvetica-Bold", fillColor=colors.HexColor("#1e3a8a")))
-        d.add(String(10, 15, "B", fontSize=9, fontName="Helvetica-Bold", fillColor=colors.HexColor("#1e3a8a")))
-        d.add(String(102, 15, "C", fontSize=9, fontName="Helvetica-Bold", fillColor=colors.HexColor("#1e3a8a")))
+        d.add(String(55, 78, "A", fontSize=9, fontName=FONT_BOLD, fillColor=colors.HexColor("#1e3a8a")))
+        d.add(String(10, 15, "B", fontSize=9, fontName=FONT_BOLD, fillColor=colors.HexColor("#1e3a8a")))
+        d.add(String(102, 15, "C", fontSize=9, fontName=FONT_BOLD, fillColor=colors.HexColor("#1e3a8a")))
     elif shape_type == "square":
         d.add(Rect(25, 15, 70, 70, fillColor=colors.HexColor("#fee2e2"), strokeColor=colors.HexColor("#dc2626"), strokeWidth=2))
-        d.add(String(20, 80, "A", fontSize=9, fontName="Helvetica-Bold"))
-        d.add(String(98, 80, "B", fontSize=9, fontName="Helvetica-Bold"))
-        d.add(String(98, 8, "C", fontSize=9, fontName="Helvetica-Bold"))
-        d.add(String(20, 8, "D", fontSize=9, fontName="Helvetica-Bold"))
+        d.add(String(20, 80, "A", fontSize=9, fontName=FONT_BOLD))
+        d.add(String(98, 80, "B", fontSize=9, fontName=FONT_BOLD))
+        d.add(String(98, 8, "C", fontSize=9, fontName=FONT_BOLD))
+        d.add(String(20, 8, "D", fontSize=9, fontName=FONT_BOLD))
     elif shape_type == "rectangle":
         d.add(Rect(15, 25, 90, 50, fillColor=colors.HexColor("#fef9c3"), strokeColor=colors.HexColor("#ca8a04"), strokeWidth=2))
     elif shape_type == "circle":
         d.add(Circle(60, 45, 30, fillColor=colors.HexColor("#f3e8ff"), strokeColor=colors.HexColor("#9333ea"), strokeWidth=2))
         d.add(Circle(60, 45, 2, fillColor=colors.HexColor("#6b21a8")))
         d.add(Line(60, 45, 90, 45, strokeColor=colors.HexColor("#6b21a8"), strokeWidth=1))
-        d.add(String(58, 48, "O", fontSize=9, fontName="Helvetica-Bold"))
-        d.add(String(93, 42, "R", fontSize=9, fontName="Helvetica-Bold"))
+        d.add(String(58, 48, "O", fontSize=9, fontName=FONT_BOLD))
+        d.add(String(93, 42, "R", fontSize=9, fontName=FONT_BOLD))
     else:
         # Generic representation
         d.add(Line(20, 20, 100, 70, strokeColor=colors.HexColor("#475569"), strokeWidth=2))
@@ -109,11 +134,10 @@ def build_pdf():
         
     styles = getSampleStyleSheet()
     
-    # Custom unicode-safe styles where needed, fallback gracefully
     title_style = ParagraphStyle(
         'TitleStyle',
         parent=styles['Heading1'],
-        fontName='Helvetica-Bold',
+        fontName=FONT_BOLD,
         fontSize=24,
         leading=28,
         textColor=colors.HexColor("#1e3a8a"),
@@ -124,7 +148,7 @@ def build_pdf():
     subtitle_style = ParagraphStyle(
         'SubtitleStyle',
         parent=styles['Normal'],
-        fontName='Helvetica',
+        fontName=FONT_REGULAR,
         fontSize=12,
         leading=16,
         textColor=colors.HexColor("#475569"),
@@ -135,7 +159,7 @@ def build_pdf():
     grade_heading_style = ParagraphStyle(
         'GradeHeading',
         parent=styles['Heading2'],
-        fontName='Helvetica-Bold',
+        fontName=FONT_BOLD,
         fontSize=18,
         leading=22,
         textColor=colors.HexColor("#0f172a"),
@@ -147,7 +171,7 @@ def build_pdf():
     lesson_title_style = ParagraphStyle(
         'LessonTitle',
         parent=styles['Heading3'],
-        fontName='Helvetica-Bold',
+        fontName=FONT_BOLD,
         fontSize=13,
         leading=16,
         textColor=colors.HexColor("#2563eb"),
@@ -159,7 +183,7 @@ def build_pdf():
     body_style = ParagraphStyle(
         'Body',
         parent=styles['BodyText'],
-        fontName='Helvetica',
+        fontName=FONT_REGULAR,
         fontSize=9.5,
         leading=13.5,
         textColor=colors.HexColor("#334155")
@@ -168,13 +192,13 @@ def build_pdf():
     formula_style = ParagraphStyle(
         'Formula',
         parent=styles['Code'],
-        fontName='Courier-Bold',
+        fontName='Courier',
         fontSize=10,
         leading=12,
         textColor=colors.HexColor("#b91c1c"),
         backColor=colors.HexColor("#fef2f2"),
         borderColor=colors.HexColor("#fee2e2"),
-        borderWidth=1,
+        borderWidth=0.5,
         borderPadding=6,
         spaceBefore=4,
         spaceAfter=4
@@ -190,7 +214,7 @@ def build_pdf():
     
     # Cover Decorative box
     cover_table_data = [
-        [Paragraph("<b>Dành cho Học sinh THCS (Lớp 6, 7, 8, 9)</b>", ParagraphStyle('CoverText', parent=body_style, fontSize=11, alignment=1))],
+        [Paragraph("<b>Dành cho Học sinh THCS (Lớp 6, 7, 8, 9)</b>", ParagraphStyle('CoverText', parent=body_style, fontName=FONT_BOLD, fontSize=11, alignment=1))],
         [Paragraph("Tài liệu tự động xuất bản từ hệ thống Harry Dạy Toán", ParagraphStyle('CoverTextSub', parent=body_style, fontSize=9.5, alignment=1))]
     ]
     cover_table = Table(cover_table_data, colWidths=[350])
@@ -227,7 +251,7 @@ def build_pdf():
                 
             # Theory & Formulas
             for t in l['theory']:
-                lesson_elements.append(Paragraph(f"<b>{t['title']}</b>", ParagraphStyle('TheoryTitle', parent=body_style, fontName='Helvetica-Bold', textColor=colors.HexColor("#0284c7"))))
+                lesson_elements.append(Paragraph(f"<b>{t['title']}</b>", ParagraphStyle('TheoryTitle', parent=body_style, fontName=FONT_BOLD, textColor=colors.HexColor("#0284c7"))))
                 lesson_elements.append(Paragraph(t['content'].replace('\n', '<br/>'), body_style))
                 
                 # Formulas
@@ -250,7 +274,6 @@ def build_pdf():
                 shape_to_draw = "circle"
                 
             if shape_to_draw:
-                # Add inline diagram side-by-side or below
                 diag = draw_basic_shape(shape_to_draw)
                 lesson_elements.append(diag)
                 lesson_elements.append(Spacer(1, 5))
@@ -261,15 +284,13 @@ def build_pdf():
                 lesson_elements.append(Paragraph(rem_text, ParagraphStyle('RememberText', parent=body_style, textColor=colors.HexColor("#1e293b"), backColor=colors.HexColor("#f8fafc"), borderPadding=4)))
                 
             lesson_elements.append(Spacer(1, 10))
-            
-            # Keep each lesson content grouped together so it doesn't break clumsily across pages if small
             story.append(KeepTogether(lesson_elements))
             story.append(Spacer(1, 15))
             
         story.append(PageBreak())
         
     doc.build(story, canvasmaker=NumberedCanvas)
-    print("PDF Successfully Built at:", pdf_path)
+    print("PDF Successfully Re-built with Arial Unicode at:", pdf_path)
 
 if __name__ == "__main__":
     build_pdf()
