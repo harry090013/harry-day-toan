@@ -165,7 +165,9 @@ export default function SoTayCongThuc() {
                 </span>
                 <ul className="list-disc pl-4 text-slate-400 text-xs flex flex-col gap-1.5 print:text-slate-800">
                   {lesson.remember.map((rem, rIdx) => (
-                    <li key={rIdx}>{rem}</li>
+                    <li key={rIdx}>
+                      <MathText text={rem} />
+                    </li>
                   ))}
                 </ul>
               </div>
