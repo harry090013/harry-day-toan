@@ -14,6 +14,7 @@ export default function AppShell({ children }: AppShellProps) {
 
   const navigation = [
     { name: 'Trang chủ', href: '/', icon: Home },
+    { name: 'Sổ tay công thức', href: '/so-tay', icon: BookOpen },
     { name: 'Toán lớp 6', href: '/lop/6', icon: GraduationCap },
     { name: 'Toán lớp 7', href: '/lop/7', icon: GraduationCap },
     { name: 'Toán lớp 8', href: '/lop/8', icon: GraduationCap },
