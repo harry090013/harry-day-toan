@@ -22,15 +22,15 @@ export default function AppShell({ children }: AppShellProps) {
   ];
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col selection:bg-indigo-500 selection:text-white">
+    <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col selection:bg-indigo-500 selection:text-white print:bg-white print:text-black">
       {/* Background Gradients */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">
+      <div className="absolute inset-0 overflow-hidden pointer-events-none z-0 print:hidden">
         <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] rounded-full bg-indigo-900/20 blur-[120px]" />
         <div className="absolute bottom-[-10%] right-[-10%] w-[50%] h-[50%] rounded-full bg-purple-900/20 blur-[120px]" />
       </div>
 
       {/* Header */}
-      <header className="sticky top-0 z-50 backdrop-blur-md bg-slate-900/60 border-b border-slate-800/80">
+      <header className="sticky top-0 z-50 backdrop-blur-md bg-slate-900/60 border-b border-slate-800/80 print:hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <Link href="/" className="flex items-center gap-2 group">
@@ -69,9 +69,9 @@ export default function AppShell({ children }: AppShellProps) {
       </header>
 
       {/* Main Container */}
-      <div className="flex-1 flex flex-col md:flex-row max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 gap-8 z-10 relative">
+      <div className="flex-1 flex flex-col md:flex-row max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 gap-8 z-10 relative print:p-0 print:py-0 print:m-0 print:max-w-full">
         {/* Sidebar for navigation */}
-        <aside className="md:w-64 shrink-0 flex flex-col gap-6">
+        <aside className="md:w-64 shrink-0 flex flex-col gap-6 print:hidden">
           <div className="p-5 rounded-2xl border border-slate-800/80 bg-slate-900/40 backdrop-blur-sm shadow-xl flex flex-col gap-4">
             <h2 className="text-xs font-semibold uppercase tracking-wider text-slate-500 px-1">
               Danh mục chính
@@ -116,7 +116,7 @@ export default function AppShell({ children }: AppShellProps) {
       </div>
 
       {/* Footer */}
-      <footer className="border-t border-slate-900 bg-slate-950 py-6 mt-auto text-center text-xs text-slate-600">
+      <footer className="border-t border-slate-900 bg-slate-950 py-6 mt-auto text-center text-xs text-slate-600 print:hidden">
         <div className="max-w-7xl mx-auto px-4">
           Toán Hình Web V1 — Hệ thống học và sinh đề trắc nghiệm tự động bám sát SGK Kết nối tri thức.
         </div>
