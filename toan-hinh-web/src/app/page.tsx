@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { ArrowRight, BookOpen, GraduationCap, Award, BrainCircuit } from 'lucide-react';
+import { ArrowRight, BookOpen, GraduationCap, Award, BrainCircuit, Layers } from 'lucide-react';
 import { curriculumKnttThcs } from '@/data/curriculum/curriculum-kntt-thcs';
 
 export default function Home() {
@@ -61,14 +61,25 @@ export default function Home() {
             Website nội bộ hỗ trợ giảng dạy bám sát sách giáo khoa bộ <strong>Kết nối tri thức với cuộc sống</strong>. Tóm tắt lý thuyết trọng tâm, cung cấp ví dụ mẫu trực quan và kho bài tập trắc nghiệm sinh ngẫu nhiên kèm đáp án tức thì.
           </p>
 
-          <Link
-            href="/so-tay"
-            className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 text-white font-semibold text-sm shadow-lg shadow-indigo-500/20 transition-all hover:scale-102"
-          >
-            <BookOpen className="w-4 h-4" />
-            Tra cứu Sổ tay Công thức Hình học
-            <ArrowRight className="w-4 h-4 ml-1" />
-          </Link>
+          <div className="flex flex-wrap gap-4">
+            <Link
+              href="/so-tay"
+              className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 text-white font-semibold text-sm shadow-lg shadow-indigo-500/20 transition-all hover:scale-102"
+            >
+              <BookOpen className="w-4 h-4" />
+              Tra cứu Sổ tay Công thức
+              <ArrowRight className="w-4 h-4 ml-1" />
+            </Link>
+
+            <Link
+              href="/flashcard"
+              className="inline-flex items-center gap-2 px-5 py-3 rounded-xl border border-slate-800 bg-slate-900/40 hover:bg-slate-900/80 text-slate-300 font-semibold text-sm transition-all hover:scale-102"
+            >
+              <Layers className="w-4 h-4 text-indigo-400" />
+              Học Thẻ ghi nhớ (Flashcard)
+              <ArrowRight className="w-4 h-4 ml-1" />
+            </Link>
+          </div>
         </div>
       </div>
 
