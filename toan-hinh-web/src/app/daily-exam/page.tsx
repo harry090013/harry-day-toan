@@ -43,9 +43,9 @@ interface DailyConfig {
   practiceLessonTitle: string;
 }
 
-// 27 distinct geometry lessons of Grade 6 and Grade 7
+// Distinct geometry lessons of Grade 6, Grade 7 and Grade 8
 const GEO_LESSONS = Object.values(allLessonContents)
-  .filter(l => (l.grade === 6 || l.grade === 7) && l.track === 'toan-hinh')
+  .filter(l => (l.grade === 6 || l.grade === 7 || l.grade === 8) && l.track === 'toan-hinh')
   .sort((a, b) => {
     if (a.grade !== b.grade) return a.grade - b.grade;
     return a.lessonId.localeCompare(b.lessonId);
@@ -419,7 +419,7 @@ export default function DailyExamPage() {
                     <div className="text-[10px] font-black text-indigo-400 uppercase tracking-widest">Đề thực hành hôm nay</div>
                     <h4 className="text-sm sm:text-base font-bold text-slate-200 mt-1">{selectedConfig.practiceLessonTitle}</h4>
                     <p className="text-xs text-slate-500 mt-0.5 leading-relaxed">
-                      Đề thi gồm 10 câu trắc nghiệm thực hành vẽ hình, tính toán góc, tỉ lệ các khối lớp 6 và lớp 7.
+                      Đề thi gồm 10 câu trắc nghiệm thực hành vẽ hình, chứng minh song song, đồng dạng, bằng nhau, tỉ lệ và tính toán các khối lớp 6, lớp 7 và lớp 8.
                     </p>
                   </div>
 
