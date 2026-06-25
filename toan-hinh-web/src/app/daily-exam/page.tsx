@@ -227,9 +227,9 @@ export default function DailyExamPage() {
       return;
     }
 
-    // Generate a fixed test of 5 questions deterministically using the dayIndex
+    // Generate a fixed test of 10 questions deterministically using the dayIndex
     const practiceQuestions: ExerciseInstance[] = [];
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < 10; i++) {
       const template = templates[i % templates.length];
       const qInstance = template.generator(selectedConfig.dayIndex * 100 + i);
       practiceQuestions.push(qInstance);
@@ -411,7 +411,7 @@ export default function DailyExamPage() {
               <div className="flex flex-col gap-4 border-t border-slate-800/80 pt-6">
                 <h3 className="text-sm font-bold text-slate-300 flex items-center gap-2">
                   <FileText className="w-4.5 h-4.5 text-indigo-400" />
-                  Nhiệm vụ 2: Bài tập thực hành hình học (Đề 5 câu hỏi hình phẳng)
+                  Nhiệm vụ 2: Bài tập thực hành hình học (Đề 10 câu hỏi hình phẳng)
                 </h3>
 
                 <div className="p-5 rounded-2xl border border-slate-800 bg-slate-950/40 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
@@ -419,7 +419,7 @@ export default function DailyExamPage() {
                     <div className="text-[10px] font-black text-indigo-400 uppercase tracking-widest">Đề thực hành hôm nay</div>
                     <h4 className="text-sm sm:text-base font-bold text-slate-200 mt-1">{selectedConfig.practiceLessonTitle}</h4>
                     <p className="text-xs text-slate-500 mt-0.5 leading-relaxed">
-                      Đề thi gồm 5 câu trắc nghiệm thực hành vẽ hình, tính toán góc, tỉ lệ các khối lớp 6 và lớp 7.
+                      Đề thi gồm 10 câu trắc nghiệm thực hành vẽ hình, tính toán góc, tỉ lệ các khối lớp 6 và lớp 7.
                     </p>
                   </div>
 
