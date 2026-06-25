@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { Home, BookOpen, Compass, ChevronRight, GraduationCap, Brain, Layers } from 'lucide-react';
+import { Home, BookOpen, Compass, ChevronRight, GraduationCap, Brain, Layers, Calendar } from 'lucide-react';
 import { usePathname } from 'next/navigation';
 
 interface AppShellProps {
@@ -15,6 +15,7 @@ export default function AppShell({ children }: AppShellProps) {
   const navigation = [
     { name: 'Trang chủ', href: '/', icon: Home },
     { name: 'Sổ tay công thức', href: '/so-tay', icon: BookOpen },
+    { name: 'Đề thi hàng ngày (Daily Exam)', href: '/daily-exam', icon: Calendar },
     { name: 'Thẻ ghi nhớ (Flashcard)', href: '/flashcard', icon: Layers },
     { name: 'Luyện lý thuyết', href: '/luyen-ly-thuyet', icon: Brain },
     { name: 'Toán lớp 6', href: '/lop/6', icon: GraduationCap },

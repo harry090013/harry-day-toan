@@ -19,7 +19,7 @@ import {
   AlertCircle
 } from 'lucide-react';
 
-interface Question {
+export interface Question {
   id: number;
   type: 'mc' | 'tf' | 'fill' | 'formula' | 'quick';
   topic: string;
@@ -29,7 +29,7 @@ interface Question {
   note?: string;
 }
 
-const BANK: Question[] = [
+export const BANK: Question[] = [
   {id:1,type:"mc",topic:"L6",q:"Góc bẹt có số đo bằng:",opts:["90°","120°","180°","360°"],ans:2},
   {id:2,type:"mc",topic:"L6",q:"Hai góc phụ nhau có tổng số đo bằng:",opts:["45°","90°","180°","270°"],ans:1},
   {id:3,type:"mc",topic:"L6",q:"Tia phân giác của một góc chia góc đó thành:",opts:["Hai góc bù nhau","Hai góc bằng nhau","Hai góc phụ nhau","Hai góc kề bù"],ans:1},
@@ -152,7 +152,7 @@ const BANK: Question[] = [
   {id:120,type:"quick",topic:"L8",q:"Tam giác vuông tại B, AB = 9, BC = 12. Cạnh huyền AC bằng:",opts:["13","14","15","21"],ans:2},
 ];
 
-const DECKS: number[][] = [
+export const DECKS: number[][] = [
   [1,31,51,66,81, 5,32,52,67,82, 7,33,53,68,83, 13,36,57,69,85, 19,41,60,71,86],
   [2,34,54,70,84, 6,35,55,72,87, 8,37,56,73,88, 14,38,58,74,89, 20,42,61,75,90],
   [3,39,59,76,91, 9,40,62,77,92, 10,43,63,78,93, 15,44,64,79,94, 21,45,65,80,95],
@@ -179,6 +179,8 @@ export default function LuyenLyThuyet() {
   const [answers, setAnswers] = useState<Record<number, number>>({});
   const [showAnswer, setShowAnswer] = useState<boolean>(false);
   const [wrongIds, setWrongIds] = useState<Set<number>>(new Set());
+  const [completionTime, setCompletionTime] = useState<string>('');
+  const [examTitle, setExamTitle] = useState<string>('');
 
   const startDeck = useCallback((deckIdx: number) => {
     const ids = [...new Set(DECKS[deckIdx])];
@@ -245,9 +247,20 @@ export default function LuyenLyThuyet() {
         if (!isCorrect) wrong.add(q.id);
       });
       setWrongIds(wrong);
+
+      // Set completion time and title for screenshot verification
+      setCompletionTime(new Date().toLocaleString('vi-VN'));
+      if (mode?.type === "deck") {
+        setExamTitle(`Đề ôn lý thuyết số ${Number(mode.deckIdx) + 1}`);
+      } else if (mode?.type === "random") {
+        setExamTitle("Luyện lý thuyết ngẫu nhiên 20 câu");
+      } else {
+        setExamTitle("Ôn tập câu lý thuyết trả lời sai");
+      }
+
       setScreen("result");
     }
-  }, [current, questions, answers]);
+  }, [current, questions, answers, mode]);
 
   const score = questions.filter(q => {
     const chosen = answers[q.id];
@@ -529,6 +542,18 @@ export default function LuyenLyThuyet() {
             </div>
             <div className="text-xs font-bold text-indigo-400 mt-1 uppercase tracking-wider">
               Chính xác {pct}%
+            </div>
+          </div>
+
+          {/* Screenshot verification metadata */}
+          <div className="w-full p-4 rounded-2xl bg-slate-950/60 border border-slate-800 text-left text-xs flex flex-col gap-2 shadow-inner">
+            <div className="flex justify-between border-b border-slate-900 pb-2">
+              <span className="text-slate-500 font-semibold">Đề kiểm tra:</span>
+              <span className="text-indigo-300 font-bold text-right">{examTitle}</span>
+            </div>
+            <div className="flex justify-between">
+              <span className="text-slate-500 font-semibold">Thời gian hoàn thành:</span>
+              <span className="text-slate-300 font-mono text-right">{completionTime}</span>
             </div>
           </div>
 
